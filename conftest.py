@@ -27,6 +27,9 @@ def browser(request):
         elif browser_name == "firefox":
             fp = webdriver.FirefoxProfile()
             fp.set_preference("intl.accept_languages", language)
+            
+            
+
 
 
             print(f"\n Start firefox browser for test,language={language}...")
@@ -40,3 +43,10 @@ def browser(request):
     yield browser
     print("\n Quit browser..")
     browser.quit()
+    
+#
+    
+    
+    
+    
+    

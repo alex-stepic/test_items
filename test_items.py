@@ -16,3 +16,6 @@ def is_element_present(browser):
 
 def test_for_different_interface_languages(browser):
     assert is_element_present(browser)==True, "Корзина не найдена"
+    
+
+#
